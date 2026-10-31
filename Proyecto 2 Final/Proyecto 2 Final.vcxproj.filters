@@ -15,207 +15,207 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bitacora.h">
+    <ClInclude Include="Bitacora.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bodega.h">
+    <ClInclude Include="Bodega.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Celda.h">
+    <ClInclude Include="Celda.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\CentroDistribucion.h">
+    <ClInclude Include="CentroDistribucion.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Cliente.h">
+    <ClInclude Include="Cliente.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteEmpresa.h">
+    <ClInclude Include="ClienteEmpresa.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteFisico.h">
+    <ClInclude Include="ClienteFisico.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Colaborador.h">
+    <ClInclude Include="Colaborador.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\DatosPrueba.h">
+    <ClInclude Include="DatosPrueba.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Despacho.h">
+    <ClInclude Include="Despacho.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Estados.h">
+    <ClInclude Include="Estados.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaBodegas.h">
+    <ClInclude Include="ListaBodegas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaCentros.h">
+    <ClInclude Include="ListaCentros.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaClientes.h">
+    <ClInclude Include="ListaClientes.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaColaboradores.h">
+    <ClInclude Include="ListaColaboradores.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaDespachos.h">
+    <ClInclude Include="ListaDespachos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaPaquetes.h">
+    <ClInclude Include="ListaPaquetes.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaRanking.h">
+    <ClInclude Include="ListaRanking.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaSolicitudes.h">
+    <ClInclude Include="ListaSolicitudes.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Menu.h">
+    <ClInclude Include="Menu.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBitacora.h">
+    <ClInclude Include="NodoBitacora.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBodega.h">
+    <ClInclude Include="NodoBodega.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCentro.h">
+    <ClInclude Include="NodoCentro.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCliente.h">
+    <ClInclude Include="NodoCliente.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoColaborador.h">
+    <ClInclude Include="NodoColaborador.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoDespacho.h">
+    <ClInclude Include="NodoDespacho.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoPaquete.h">
+    <ClInclude Include="NodoPaquete.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoRanking.h">
+    <ClInclude Include="NodoRanking.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoSolicitud.h">
+    <ClInclude Include="NodoSolicitud.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Paquete.h">
+    <ClInclude Include="Paquete.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Sistema.h">
+    <ClInclude Include="Sistema.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\SolicitudEnvio.h">
+    <ClInclude Include="SolicitudEnvio.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Tarifas.h">
+    <ClInclude Include="Tarifas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bitacora.cpp">
+    <ClCompile Include="Bitacora.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bodega.cpp">
+    <ClCompile Include="Bodega.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Celda.cpp">
+    <ClCompile Include="Celda.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\CentroDistribucion.cpp">
+    <ClCompile Include="CentroDistribucion.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Cliente.cpp">
+    <ClCompile Include="Cliente.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteEmpresa.cpp">
+    <ClCompile Include="ClienteEmpresa.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteFisico.cpp">
+    <ClCompile Include="ClienteFisico.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Colaborador.cpp">
+    <ClCompile Include="Colaborador.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\DatosPrueba.cpp">
+    <ClCompile Include="DatosPrueba.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Despacho.cpp">
+    <ClCompile Include="Despacho.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Estados.cpp">
+    <ClCompile Include="Estados.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaBodegas.cpp">
+    <ClCompile Include="ListaBodegas.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaCentros.cpp">
+    <ClCompile Include="ListaCentros.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaClientes.cpp">
+    <ClCompile Include="ListaClientes.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaColaboradores.cpp">
+    <ClCompile Include="ListaColaboradores.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaDespachos.cpp">
+    <ClCompile Include="ListaDespachos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaPaquetes.cpp">
+    <ClCompile Include="ListaPaquetes.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaRanking.cpp">
+    <ClCompile Include="ListaRanking.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaSolicitudes.cpp">
+    <ClCompile Include="ListaSolicitudes.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Menu.cpp">
+    <ClCompile Include="Menu.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBitacora.cpp">
+    <ClCompile Include="NodoBitacora.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBodega.cpp">
+    <ClCompile Include="NodoBodega.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCentro.cpp">
+    <ClCompile Include="NodoCentro.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCliente.cpp">
+    <ClCompile Include="NodoCliente.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoColaborador.cpp">
+    <ClCompile Include="NodoColaborador.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoDespacho.cpp">
+    <ClCompile Include="NodoDespacho.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoPaquete.cpp">
+    <ClCompile Include="NodoPaquete.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoRanking.cpp">
+    <ClCompile Include="NodoRanking.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoSolicitud.cpp">
+    <ClCompile Include="NodoSolicitud.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Paquete.cpp">
+    <ClCompile Include="Paquete.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Sistema.cpp">
+    <ClCompile Include="Sistema.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\SolicitudEnvio.cpp">
+    <ClCompile Include="SolicitudEnvio.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Tarifas.cpp">
+    <ClCompile Include="Tarifas.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
