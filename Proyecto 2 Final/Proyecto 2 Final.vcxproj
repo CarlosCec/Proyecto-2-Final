@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8dcdf458-d07a-4dd9-b957-c9ea32612e36}</ProjectGuid>
+    <RootNamespace>Proyecto2Final</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bitacora.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bodega.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Celda.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\CentroDistribucion.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Cliente.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteEmpresa.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteFisico.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Colaborador.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\DatosPrueba.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Despacho.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Estados.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaBodegas.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaCentros.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaClientes.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaColaboradores.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaDespachos.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaPaquetes.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaRanking.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaSolicitudes.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Menu.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBitacora.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBodega.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCentro.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCliente.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoColaborador.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoDespacho.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoPaquete.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoRanking.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoSolicitud.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Paquete.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Sistema.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\SolicitudEnvio.h" />
+    <ClInclude Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Tarifas.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bitacora.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Bodega.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Celda.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\CentroDistribucion.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Cliente.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteEmpresa.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ClienteFisico.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Colaborador.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\DatosPrueba.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Despacho.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Estados.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaBodegas.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaCentros.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaClientes.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaColaboradores.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaDespachos.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaPaquetes.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaRanking.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\ListaSolicitudes.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\main.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Menu.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBitacora.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoBodega.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCentro.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoCliente.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoColaborador.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoDespacho.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoPaquete.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoRanking.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\NodoSolicitud.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Paquete.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Sistema.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\SolicitudEnvio.cpp" />
+    <ClCompile Include="..\..\..\..\Documents\Prg1\TicoPack_Completo\Tarifas.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
