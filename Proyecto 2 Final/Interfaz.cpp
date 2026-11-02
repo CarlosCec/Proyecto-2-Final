@@ -1,17 +1,16 @@
 #include <sstream>
 #include <iostream>
-#include <string>
 #include <cmath>
-#include "Menu.h"
+#include "Interfaz.h"
 #include "DatosPrueba.h"
 #include "Tarifas.h"
 using namespace std;
 
-Menu::Menu() {
+Interfaz::Interfaz() {
     this->centroActivo = "";
 }
 
-string Menu::leerTexto(string etiqueta) {
+string Interfaz::leerTexto(string etiqueta) {
     string texto;
     while (true) {
         cout << etiqueta;
@@ -25,7 +24,7 @@ string Menu::leerTexto(string etiqueta) {
     }
 }
 
-int Menu::leerEntero(string etiqueta, int minimo, int maximo) {
+int Interfaz::leerEntero(string etiqueta, int minimo, int maximo) {
     while (true) {
         string texto = leerTexto(etiqueta);
         if (!cin) {
@@ -41,7 +40,7 @@ int Menu::leerEntero(string etiqueta, int minimo, int maximo) {
     }
 }
 
-double Menu::leerPeso() {
+double Interfaz::leerPeso() {
     while (true) {
         string texto = leerTexto("Peso en kg (punto decimal): ");
         if (!cin) {
@@ -57,7 +56,7 @@ double Menu::leerPeso() {
     }
 }
 
-double Menu::leerDescuento() {
+double Interfaz::leerDescuento() {
     while (true) {
         string texto = leerTexto("Descuento entre 0 y 100 (punto decimal): ");
         if (!cin) {
@@ -73,11 +72,11 @@ double Menu::leerDescuento() {
     }
 }
 
-void Menu::mostrarResultado() {
+void Interfaz::mostrarResultado() {
     cout << sistema.getMensaje() << '\n';
 }
 
-void Menu::elegirCentro() {
+void Interfaz::elegirCentro() {
     sistema.mostrarCentros();
     string codigo = leerTexto("Codigo del centro a seleccionar: ");
     if (!cin) {
@@ -91,7 +90,7 @@ void Menu::elegirCentro() {
     }
 }
 
-void Menu::menuCentros() {
+void Interfaz::interfazCentros() {
     int opcion;
     do {
         cout << "\nCENTROS\n1 Registrar\n2 Buscar\n3 Mostrar todos\n4 Eliminar\n5 Seleccionar centro\n0 Volver\n";
@@ -157,7 +156,7 @@ void Menu::menuCentros() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuClientes() {
+void Interfaz::interfazClientes() {
     int opcion;
     do {
         cout << "\nCLIENTES | Centro " << centroActivo << "\n1 Registrar persona fisica\n2 Registrar empresa\n3 Buscar\n4 Mostrar\n5 Eliminar\n0 Volver\n";
@@ -237,7 +236,7 @@ void Menu::menuClientes() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuColaboradores() {
+void Interfaz::interfazColaboradores() {
     int opcion;
     do {
         cout << "\nCOLABORADORES | Centro " << centroActivo << "\n1 Registrar\n2 Buscar\n3 Mostrar\n4 Eliminar\n0 Volver\n";
@@ -299,7 +298,7 @@ void Menu::menuColaboradores() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuBodegas() {
+void Interfaz::interfazBodegas() {
     int opcion;
     do {
         cout << "\nBODEGAS | Centro " << centroActivo << "\n1 Registrar\n2 Buscar\n3 Mostrar\n4 Ver matriz\n5 Eliminar\n6 Consultar celda\n0 Volver\n";
@@ -386,7 +385,7 @@ void Menu::menuBodegas() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuPaquetes() {
+void Interfaz::interfazPaquetes() {
     int opcion;
     do {
         cout << "\nPAQUETES | Centro " << centroActivo << "\n1 Registrar\n2 Buscar global\n3 Mostrar del centro\n4 Eliminar global" << "\n5 Almacenar / resolver incidencia sin celda\n6 Reubicar" << "\n7 Registrar incidencia\n8 Resolver incidencia con celda o en ruta\n0 Volver\n";
@@ -551,7 +550,7 @@ void Menu::menuPaquetes() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuSolicitudes() {
+void Interfaz::interfazSolicitudes() {
     int opcion;
     do {
         cout << "\nSOLICITUDES | Centro " << centroActivo << "\n1 Crear\n2 Buscar global\n3 Mostrar del centro\n4 Aprobar y crear despacho" << "\n5 Rechazar\n6 Anular\n7 Ver tarifas\n0 Volver\n";
@@ -651,7 +650,7 @@ void Menu::menuSolicitudes() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuDespachos() {
+void Interfaz::interfazDespachos() {
     int opcion;
     do {
         cout << "\nDESPACHOS | Centro " << centroActivo << "\n1 Buscar global\n2 Mostrar del centro\n3 Finalizar entrega\n0 Volver\n";
@@ -705,7 +704,7 @@ void Menu::menuDespachos() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::menuReportes() {
+void Interfaz::interfazReportes() {
     int opcion;
     do {
         cout << "\nREPORTES | Centro " << centroActivo << "\n1 Historial de cliente\n2 Clientes por envios finalizados\n3 Bitacora de paquete" << "\n4 Despacho de paquete\n5 Ocupacion de bodegas\n6 Despachos por colaborador\n0 Volver\n";
@@ -769,7 +768,7 @@ void Menu::menuReportes() {
     } while (opcion != 0 && cin);
 }
 
-void Menu::ejecutar() {
+void Interfaz::ejecutar() {
     cout << "TICOPACK LOGISTICS\n1 Iniciar con datos de prueba\n0 Iniciar vacio\n";
     int cargar = leerEntero("Opcion: ",0,1);
     if (!cin) {
@@ -802,35 +801,35 @@ void Menu::ejecutar() {
         }
         switch (opcion) {
             case 1: {
-                menuCentros();
+                interfazCentros();
                 break;
             }
             case 2: {
-                menuClientes();
+                interfazClientes();
                 break;
             }
             case 3: {
-                menuColaboradores();
+                interfazColaboradores();
                 break;
             }
             case 4: {
-                menuBodegas();
+                interfazBodegas();
                 break;
             }
             case 5: {
-                menuPaquetes();
+                interfazPaquetes();
                 break;
             }
             case 6: {
-                menuSolicitudes();
+                interfazSolicitudes();
                 break;
             }
             case 7: {
-                menuDespachos();
+                interfazDespachos();
                 break;
             }
             case 8: {
-                menuReportes();
+                interfazReportes();
                 break;
             }
             case 9: {
@@ -848,10 +847,10 @@ void Menu::ejecutar() {
     cout << "Sistema cerrado.\n";
 }
 
-Menu::~Menu() {
+Interfaz::~Interfaz() {
 }
 
-void Menu::destruir() {
+void Interfaz::destruir() {
     this->sistema.destruir();
     this->centroActivo = "";
 }

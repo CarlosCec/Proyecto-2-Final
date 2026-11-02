@@ -1,10 +1,7 @@
-#ifndef CENTRODISTRIBUCION_H
-#define CENTRODISTRIBUCION_H
 #include <sstream>
 #include <iostream>
-#include <string>
 using namespace std;
-
+ 
 class ListaDespachos;
 class ListaSolicitudes;
 class ListaPaquetes;
@@ -40,4 +37,3 @@ public:
     bool vacio() const;
     void mostrar() const;
 };
-#endif

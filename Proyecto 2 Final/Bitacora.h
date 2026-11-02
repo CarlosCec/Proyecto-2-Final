@@ -1,11 +1,8 @@
-#ifndef BITACORA_H
-#define BITACORA_H
 #include <sstream>
 #include <iostream>
-#include <string>
-using namespace std;
 #include "NodoBitacora.h"
 #include "Estados.h"
+using namespace std;
 
 class Bitacora {
 private:
@@ -21,4 +18,4 @@ public:
     bool usaColaborador(Colaborador* colaborador) const;
     int cantidad() const;
 };
-#endif
+

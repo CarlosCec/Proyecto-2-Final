@@ -1,12 +1,11 @@
 #include <sstream>
 #include <iostream>
-#include <string>
-#include "Menu.h"
+#include "Interfaz.h"
 using namespace std;
 
 int main() {
-    Menu menu;
-    menu.ejecutar();
-    menu.destruir();
+    Interfaz interfaz;
+    interfaz.ejecutar();
+    interfaz.destruir();
     return 0;
 }

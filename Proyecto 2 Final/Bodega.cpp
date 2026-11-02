@@ -1,9 +1,8 @@
 #include <sstream>
 #include <iostream>
-#include <string>
-using namespace std;
 #include "Bodega.h"
 #include "Paquete.h"
+using namespace std;
 
 Bodega::Bodega(string cod, string nom, int t, int f, int c) {
     this->codigo = cod;

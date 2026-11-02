@@ -1,8 +1,5 @@
-#ifndef CELDA_H
-#define CELDA_H
 #include <sstream>
 #include <iostream>
-#include <string>
 using namespace std;
 
 class Paquete;
@@ -16,4 +13,4 @@ public:
     void setPaquete(Paquete* nuevo);
     Paquete* getPaquete() const;
 };
-#endif
+

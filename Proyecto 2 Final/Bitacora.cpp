@@ -1,8 +1,6 @@
-#include <sstream>
-#include <iostream>
-#include <string>
-using namespace std;
 #include "Bitacora.h"
+using namespace std;
+
 
 Bitacora::Bitacora() {
     this->primero = NULL;

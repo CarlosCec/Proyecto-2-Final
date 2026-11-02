@@ -1,11 +1,8 @@
-#ifndef BODEGA_H
-#define BODEGA_H
 #include <sstream>
 #include <iostream>
-#include <string>
-using namespace std;
 #include "Celda.h"
 #include "Estados.h"
+using namespace std;
 
 class Bodega {
 private:
@@ -13,7 +10,6 @@ private:
     int tipo, filas, columnas;
     Celda** matriz;
     Bodega(const Bodega&);
-    Bodega& operator=(const Bodega&);
 public:
     void destruir();
     Bodega(string cod, string nom, int t, int f, int c);
@@ -33,4 +29,3 @@ public:
     void mostrarMatriz() const;
     void mostrarDisponibles() const;
 };
-#endif

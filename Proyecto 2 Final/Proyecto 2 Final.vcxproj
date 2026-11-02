@@ -39,7 +39,7 @@
     <ClCompile Include="ListaRanking.cpp" />
     <ClCompile Include="ListaSolicitudes.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Interfaz.cpp" />
     <ClCompile Include="NodoBitacora.cpp" />
     <ClCompile Include="NodoBodega.cpp" />
     <ClCompile Include="NodoCentro.cpp" />
@@ -74,7 +74,7 @@
     <ClInclude Include="ListaPaquetes.h" />
     <ClInclude Include="ListaRanking.h" />
     <ClInclude Include="ListaSolicitudes.h" />
-    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Interfaz.h" />
     <ClInclude Include="NodoBitacora.h" />
     <ClInclude Include="NodoBodega.h" />
     <ClInclude Include="NodoCentro.h" />

@@ -6,7 +6,7 @@
 #include "Sistema.h"
 using namespace std;
 
-class Menu {
+class Interfaz {
 private:
     Sistema sistema;
     string centroActivo;
@@ -16,18 +16,18 @@ private:
     double leerDescuento();
     void mostrarResultado();
     void elegirCentro();
-    void menuCentros();
-    void menuClientes();
-    void menuColaboradores();
-    void menuBodegas();
-    void menuPaquetes();
-    void menuSolicitudes();
-    void menuDespachos();
-    void menuReportes();
+    void interfazCentros();
+    void interfazClientes();
+    void interfazColaboradores();
+    void interfazBodegas();
+    void interfazPaquetes();
+    void interfazSolicitudes();
+    void interfazDespachos();
+    void interfazReportes();
 public:
     void destruir();
-    ~Menu();
-    Menu();
+    ~Interfaz();
+    Interfaz();
     void ejecutar();
 };
 #endif
