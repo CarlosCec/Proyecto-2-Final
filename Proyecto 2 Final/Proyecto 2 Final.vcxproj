@@ -18,6 +18,77 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitacora.cpp" />
+    <ClCompile Include="Bodega.cpp" />
+    <ClCompile Include="Celda.cpp" />
+    <ClCompile Include="CentroDistribucion.cpp" />
+    <ClCompile Include="Cliente.cpp" />
+    <ClCompile Include="ClienteEmpresa.cpp" />
+    <ClCompile Include="ClienteFisico.cpp" />
+    <ClCompile Include="Colaborador.cpp" />
+    <ClCompile Include="DatosPrueba.cpp" />
+    <ClCompile Include="Despacho.cpp" />
+    <ClCompile Include="Estados.cpp" />
+    <ClCompile Include="ListaBodegas.cpp" />
+    <ClCompile Include="ListaCentros.cpp" />
+    <ClCompile Include="ListaClientes.cpp" />
+    <ClCompile Include="ListaColaboradores.cpp" />
+    <ClCompile Include="ListaDespachos.cpp" />
+    <ClCompile Include="ListaPaquetes.cpp" />
+    <ClCompile Include="ListaRanking.cpp" />
+    <ClCompile Include="ListaSolicitudes.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="NodoBitacora.cpp" />
+    <ClCompile Include="NodoBodega.cpp" />
+    <ClCompile Include="NodoCentro.cpp" />
+    <ClCompile Include="NodoCliente.cpp" />
+    <ClCompile Include="NodoColaborador.cpp" />
+    <ClCompile Include="NodoDespacho.cpp" />
+    <ClCompile Include="NodoPaquete.cpp" />
+    <ClCompile Include="NodoRanking.cpp" />
+    <ClCompile Include="NodoSolicitud.cpp" />
+    <ClCompile Include="Paquete.cpp" />
+    <ClCompile Include="Sistema.cpp" />
+    <ClCompile Include="SolicitudEnvio.cpp" />
+    <ClCompile Include="Tarifas.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitacora.h" />
+    <ClInclude Include="Bodega.h" />
+    <ClInclude Include="Celda.h" />
+    <ClInclude Include="CentroDistribucion.h" />
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="ClienteEmpresa.h" />
+    <ClInclude Include="ClienteFisico.h" />
+    <ClInclude Include="Colaborador.h" />
+    <ClInclude Include="DatosPrueba.h" />
+    <ClInclude Include="Despacho.h" />
+    <ClInclude Include="Estados.h" />
+    <ClInclude Include="ListaBodegas.h" />
+    <ClInclude Include="ListaCentros.h" />
+    <ClInclude Include="ListaClientes.h" />
+    <ClInclude Include="ListaColaboradores.h" />
+    <ClInclude Include="ListaDespachos.h" />
+    <ClInclude Include="ListaPaquetes.h" />
+    <ClInclude Include="ListaRanking.h" />
+    <ClInclude Include="ListaSolicitudes.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="NodoBitacora.h" />
+    <ClInclude Include="NodoBodega.h" />
+    <ClInclude Include="NodoCentro.h" />
+    <ClInclude Include="NodoCliente.h" />
+    <ClInclude Include="NodoColaborador.h" />
+    <ClInclude Include="NodoDespacho.h" />
+    <ClInclude Include="NodoPaquete.h" />
+    <ClInclude Include="NodoRanking.h" />
+    <ClInclude Include="NodoSolicitud.h" />
+    <ClInclude Include="Paquete.h" />
+    <ClInclude Include="Sistema.h" />
+    <ClInclude Include="SolicitudEnvio.h" />
+    <ClInclude Include="Tarifas.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
